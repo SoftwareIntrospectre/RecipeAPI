@@ -1,6 +1,8 @@
 import flask
 from flask import request, jsonify
 
+# TODO: Connect API to database
+
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
